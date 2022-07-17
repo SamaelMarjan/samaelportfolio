@@ -1,0 +1,9 @@
+.blog {
+    height: 100vh;
+}
+
+.blog-main {
+    width: 95vw;
+    max-width: 1170px;
+    margin: 0 auto;
+}

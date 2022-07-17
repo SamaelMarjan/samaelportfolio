@@ -1,0 +1,85 @@
+.home {
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.home-main{
+    height: 100%;
+    width: 95vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.home-about {
+    margin-right: 5rem;
+}
+
+.home-about_name {
+    font-weight: 500;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.home-about_name strong {
+    display: block;
+}
+
+.home-about_work {
+    font-size: 1.25rem;
+    background: #16e0bd;
+    padding: 0.25em 1em;
+    margin-bottom: 3em;
+}
+
+.home-about_description {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.image {
+    background: rgb(70, 69, 69);
+    height: 450px;
+    border-radius: 10px;
+}
+
+.home_contact {
+    width: 95vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.home_know {
+    width: 95vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_know-topics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.home_know-center {
+    padding: 30px;
+    width: 370px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.home_logo {
+    height: 2rem;
+    width: 2rem;
+}
